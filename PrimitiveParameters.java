@@ -15,19 +15,19 @@ public class PrimitiveParameters
 	}
 	
 	public static void falseSwap(int x, int y)
-	{	System.out.println("in method falseSwap. x: " + x + " y: " + y);
+	{	System.out.println("In method falseSwap. x: " + x + " y: " + y);
 		int temp = x;
 		x = y;
 		y = temp;
-		System.out.println("in method falseSwap. x: " + x + " y: " + y);
+		System.out.println("In method falseSwap. x: " + x + " y: " + y);
 	}
 	
 	public static void moreParameters(int a, int b)
-	{	System.out.println("in method moreParameters. a: " + a + " b: " + b);
+	{	System.out.println("In method moreParameters. a: " + a + " b: " + b);
 		a = a * b;
 		b = 12;
-		System.out.println("in method moreParameters. a: " + a + " b: " + b);
+		System.out.println("In method moreParameters. a: " + a + " b: " + b);
 		falseSwap(b,a);
-		System.out.println("in method moreParameters. a: " + a + " b: " + b);	
+		System.out.println("In method moreParameters. a: " + a + " b: " + b);	
 	}
 }
